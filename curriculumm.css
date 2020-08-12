@@ -5,10 +5,14 @@ body {
     position: relative;
     margin: 0;
     padding: 0 0;
-    color: #333;
+    color: gray;
     line-height: 22px;
  font: 13px "Source Sans Pro", Arial;
      font-style: normal
+}
+.imagen{
+    width: 7cm;
+    height: 50%;
 }
 
 h1 {
@@ -16,7 +20,7 @@ h1 {
     margin: 0 0 15px 0;
     padding: 20px 0 0 0;
     font-weight: 600;
-    color: #333
+    color: gray
 }
 
 h1 span {
@@ -31,7 +35,7 @@ h2 {
  font: 16px "Source Sans Pro", Arial;            font-weight: 400;
     margin: 0;
     padding: 4px 0 12px 10px;
-    background: #f1f1f1
+    background: white
 }
 
 h3 {
