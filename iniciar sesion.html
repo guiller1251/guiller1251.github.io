@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Winder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript">
+        function alerta() {
+            alert("Usuario incorrecto")
+        }
+        function validar() {
+            var nombre = document.getElementById("usuario").value;
+
+            var password = document.getElementById("password").value;
+
+            var espacio = false;
+            
+
+            if (nombre == "admin" && password == "123456") {
+
+                alert("Los datos son correctos");
+
+                espacio = true;
+
+            } else {
+                alerta("los datos son incorrecto");
+
+            }
+
+
+            console.log("el nombre ingresado es" + nombre);
+
+
+
+
+
+            //document.getElementById("mensaje").innerHTML="hola "+ nombre;
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Acceso</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Por favor ingrese los datos de acceso</h6>
+
+                <form>
+                    <div>
+                        <b>Usuario</b><br />
+                        <input type="text" id="usuario" />
+                    </div>
+                    <div>
+                        <b>Contraseña</b><br />
+                        <input type="password" id="password" />
+                    </div>
+                    <div>
+                        <button onclick="alerta();">Entrar</button>
+                    </div>
+
+                    <div>
+                        <button onclick="validar();">validar</button>
+                    </div>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr />
+    <ul>
+
+        <li><a
+                href="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5b755a235cafe886f57f0c61/golden-cachorro_0.jpg">Registrarse
+            </a></li>
+
+        <li><a href="https://i.pinimg.com/originals/35/1f/ec/351fec9ca817848a9572563ba90b82e0.png">Recuperar Clave </a>
+        </li>
+
+    </ul>
+</body>
+
+</html>
