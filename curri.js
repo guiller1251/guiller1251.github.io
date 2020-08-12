@@ -8,6 +8,7 @@ function validar() {
 
     if (nombre == "guillermo" && password == "123456") {
 
+        if("/curriculum.html")
         
 
         espacio = true;
