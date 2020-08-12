@@ -1,0 +1,12 @@
+body {
+    width: 21cm;
+    height: 100%;
+    min-height: 29.7cm;
+    position: relative;
+    margin: 0;
+    padding: 0 0;
+    color: gray;
+    line-height: 22px;
+ font: 12px "Source Sans Pro", Arial;
+            font-style: normal;
+}
