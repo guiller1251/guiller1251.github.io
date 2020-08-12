@@ -1,4 +1,4 @@
-body {
+.curri {
     width: 21cm;
     height: 100%;
     min-height: 29.7cm;
@@ -9,4 +9,26 @@ body {
     line-height: 22px;
  font: 12px "Source Sans Pro", Arial;
             font-style: normal;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    padding: 13px 0 15px 0;
+    font-weight: 600;
+    border-bottom: 1px solid #d2d2d2;
+}
+h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    max-width: 430px;
 }
