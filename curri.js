@@ -8,7 +8,7 @@ function validar() {
 
     if (nombre == "guillermo" && password == "123456") {
 
-        alert("Los datos son correctos");
+        var curriculum= curriculum.getElementById().value;
 
         espacio = true;
 
