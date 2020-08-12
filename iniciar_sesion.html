@@ -2,45 +2,13 @@
 <html>
 
 <head>
-    <title>Winder</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="curriculum.css">
+
     <script type="text/javascript">
-        function alerta() {
-            alert("Usuario incorrecto")
-        }
-        function validar() {
-            var nombre = document.getElementById("usuario").value;
-
-            var password = document.getElementById("password").value;
-
-            var espacio = false;
-            
-
-            if (nombre == "admin" && password == "123456") {
-
-                alert("Los datos son correctos");
-
-                espacio = true;
-
-            } else {
-                alerta("los datos son incorrecto");
-
-            }
-
-
-            console.log("el nombre ingresado es" + nombre);
-
-
-
-
-
-            //document.getElementById("mensaje").innerHTML="hola "+ nombre;
-        }
-
-
-
+    
     </script>
+
 </head>
 
 <body>
@@ -65,7 +33,7 @@
                     </div>
 
                     <div>
-                        <button onclick="validar();">validar</button>
+                        <button onclick="validar();">Entrar</button>
                     </div>
 
                 </form>
