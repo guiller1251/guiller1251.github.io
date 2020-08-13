@@ -5,7 +5,8 @@ body {
     position: relative;
     margin: 0;
     padding: 0 0;
-    color: black;
+    background-color: black;
+    color: white;
     line-height: 22px;
  font: 13px "Source Sans Pro", Arial;
      font-style: normal
