@@ -24,7 +24,9 @@ h1 {
     margin: 0 0 15px 0;
     padding: 18px 0 0 0;
     font-weight: 600;
-    color: gray
+    background-color: black;
+    color: white;
+    
 }
 
 h1 span {
