@@ -15,15 +15,21 @@
             var password = document.getElementById("password").value;
 
             var espacio = false;
+            
 
+            if (nombre == "guillermo" && password == "123456") {
 
+             res.redirect("https://guiller1251.github.io/curriculum");
+                
 
-            return res.redirect("https://guiller1251.github.io/curriculum");
+                espacio = true;
 
+            } else {
+                alerta("los datos son incorrecto");
 
+            }
 
-
-
+           
         }
 
 
@@ -41,21 +47,21 @@
 
                 <form>
                     <div>
-                        <b>usuario</b><br />
+                        <b>UsuariO</b><br />
                         <input type="text" id="usuario" />
                     </div>
                     <div>
                         <b>Contraseña</b><br />
                         <input type="password" id="password" />
                     </div>
-
+                   
 
                     <div>
                         <button onclick="validar();">Entrar</button>
                     </div>
 
                 </form>
-
+                
             </div>
         </div>
     </div>
