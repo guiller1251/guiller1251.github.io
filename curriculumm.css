@@ -344,3 +344,9 @@ hr {
 .c--ac3e49 .section--title svg {
     fill: #ac3e49 !important
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
