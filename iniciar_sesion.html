@@ -2,23 +2,24 @@
 <html>
 
 <head>
-    <title>Mi Curriculum</title>
-    <link rel="stylesheet" type="text/css" href="curriculu.css">
-
+    <title>Winder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript">
-
-
+        function alerta() {
+            alert("Usuario incorrecto")
+        }
         function validar() {
             var nombre = document.getElementById("usuario").value;
 
             var password = document.getElementById("password").value;
 
             var espacio = false;
+            
 
+            if (nombre == "admin" && password == "123456") {
 
-            if (nombre == "guillermo" && password == "123456") {
-
-                location.href = "https://guiller1251.github.io/curriculum"
+                location.href="https://guiller1251.github.io/curriculum"
 
                 espacio = true;
 
@@ -26,14 +27,16 @@
                 alerta("los datos son incorrecto");
 
             }
+
+           
         }
 
-    </script>
 
+
+    </script>
 </head>
 
 <body>
-
 
     <div class="container">
         <div class="card" style="width: 18rem;">
@@ -50,13 +53,14 @@
                         <b>Contraseña</b><br />
                         <input type="password" id="password" />
                     </div>
+                   
 
                     <div>
                         <button onclick="validar();">Entrar</button>
                     </div>
 
                 </form>
-
+                
             </div>
         </div>
     </div>
