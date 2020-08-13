@@ -6,31 +6,34 @@
     <link rel="stylesheet" type="text/css" href="curriculu.css">
 
     <script type="text/javascript">
-    function validar() {
-    var nombre = document.getElementById("usuario").value;
 
-    var password = document.getElementById("password").value;
 
-    var espacio = false;
-    
+        function validar() {
+            var nombre = document.getElementById("usuario").value;
 
-    if (nombre == "guillermo" && password == "123456") {
+            var password = document.getElementById("password").value;
 
-       loca.href = "https://guiller1251.github.io/curriculum";
+            var espacio = false;
 
-        espacio = true;
 
-    } else {
-        alerta("los datos son incorrecto");
+            if (nombre == "guillermo" && password == "123456") {
 
-    }
-    
+                location.href = "https://guiller1251.github.io/curriculum"
+
+                espacio = true;
+
+            } else {
+                alerta("los datos son incorrecto");
+
+            }
+        }
+
     </script>
 
 </head>
 
 <body>
-    
+
 
     <div class="container">
         <div class="card" style="width: 18rem;">
@@ -47,13 +50,13 @@
                         <b>Contraseña</b><br />
                         <input type="password" id="password" />
                     </div>
-    
+
                     <div>
-                        <button  onclick="validar();">Entrar</button>
+                        <button onclick="validar();">Entrar</button>
                     </div>
 
                 </form>
-                
+
             </div>
         </div>
     </div>
